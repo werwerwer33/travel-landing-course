@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* content-box */
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/images/china-background.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 40px;
+}
+
+.container {
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  color: #fefefe;
+  font-family: "Lato", sans-serif;
+  list-style: none;
+}
+
+.header__nav > li {
+  /* 30px */
+  margin-right: 70px;
+  cursor: pointer;
+}
+
+.header__nav > li:hover {
+  /* устанавливает декорации на текст (нижнее подчерк - underline) */
+  text-decoration: underline;
+}
+.header__block {
+    margin: 3rem 0 0;
+    color:#fefefe
+}
